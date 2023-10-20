@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.steambp.launch" name="Steam" version="1.0.0" provider-name="LotteHime">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>game</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Launch Steam in Big Picture Mode and manage Kodi close and re-open.</summary>
+        <description lang="en">Launches Steam in Big Picture Mode from within Kodi, closes Kodi and when Steam is exited, returns to Kodi.</description>
+        <platform>windx</platform>
+        <language>en</language>
+        <license></license>
+        <forum></forum>
+        <website></website>
+        <source>https://github.com/lottehime</source>
+        <email></email>
+		<donate></donate>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<banner>resources/banner.jpg</banner>
+			<logo>resources/logo.png</logo>
+		</assets>
+    </extension>
+</addon>
